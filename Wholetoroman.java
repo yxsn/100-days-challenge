@@ -1,10 +1,11 @@
 import java.util.Scanner;
 class Solution {
-    public static void(String args[]){
+    public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the digit");
         int num=sc.nextInt();
-        System.out.println(intToRoman(num));
+        Solution ob = new Solution();
+        System.out.println(ob.intToRoman(num));
     }
         
     public String intToRoman(int num) {
